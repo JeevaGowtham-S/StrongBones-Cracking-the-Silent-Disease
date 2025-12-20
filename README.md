@@ -1,58 +1,86 @@
 ## Title of the Project
-Small description about the project like one below
-The integration of a chatbot within a hostel booking system, aimed at streamlining the reservation process for students and improving the overall user experience.
-
+StrongBones : Cracking the Silent Disease
 ## About
-<!--Detailed Description about the project-->
-Tailored Chatbot for Hostel Booking System is a project designed to integrate a chatbot that leverages advanced natural language processing techniques to understand and respond to user queries to the hostel booking system. Traditional hostel booking processes are often time-consuming and involve manual searches and extensive communication with hostel staff. This project seeks to overcome these challenges by creating an easy-to-use chatbot interface that assists students in addressing inquiries.
+
+StrongBones: Cracking the Silent Disease is a deep learning–based medical image analysis project developed to detect and classify bone health conditions such as Normal, Osteopenia, and Osteoporosis using radiological images. Osteoporosis is often called a silent disease because bone loss occurs without symptoms until a fracture happens.
+
+This project aims to assist healthcare professionals by providing an automated, accurate, and efficient diagnostic support system. By leveraging Convolutional Neural Networks (CNN) and transfer learning models, the system analyzes medical images to identify early-stage bone density loss, enabling timely intervention and improved patient outcomes.
 
 ## Features
-<!--List the features of the project as shown below-->
-- Implements advance neural network method.
-- A framework based application for deployment purpose.
-- High scalability.
-- Less time complexity.
-- A specific scope of Chatbot response model, using json data format.
+
+Deep learning–based osteoporosis detection using CNN architecture
+
+Multi-class classification: Normal, Osteopenia, and Osteoporosis
+
+Uses transfer learning models such as VGG16, ResNet50, InceptionV3, and MobileNet
+
+Automated image preprocessing and normalization pipeline
+
+High accuracy with optimized training and fine-tuning
+
+Scalable and efficient model suitable for medical image datasets
+
+Reduced manual diagnosis time and improved diagnostic consistency
+
+Designed for easy integration into clinical decision-support systems
 
 ## Requirements
-<!--List the requirements of the project as shown below-->
-* Operating System: Requires a 64-bit OS (Windows 10 or Ubuntu) for compatibility with deep learning frameworks.
-* Development Environment: Python 3.6 or later is necessary for coding the sign language detection system.
-* Deep Learning Frameworks: TensorFlow for model training, MediaPipe for hand gesture recognition.
-* Image Processing Libraries: OpenCV is essential for efficient image processing and real-time hand gesture recognition.
-* Version Control: Implementation of Git for collaborative development and effective code management.
-* IDE: Use of VSCode as the Integrated Development Environment for coding, debugging, and version control integration.
-* Additional Dependencies: Includes scikit-learn, TensorFlow (versions 2.4.1), TensorFlow GPU, OpenCV, and Mediapipe for deep learning tasks.
+
+1. Operating System: Requires a 64-bit OS such as Windows 10/11 or Ubuntu for compatibility with deep learning frameworks and GPU support.
+
+2. Development Environment: Python 3.8 or later is required for implementing and training deep learning models.
+
+3.  Deep Learning Frameworks: TensorFlow and Keras are used for building, training, and fine-tuning CNN and transfer learning models.
+
+4. Image Processing Libraries: OpenCV is used for image loading, preprocessing, resizing, and normalization.
+
+5. Machine Learning Libraries: scikit-learn is used for performance evaluation metrics such as confusion matrix and classification report.
+
+6. Hardware Requirements: GPU support (NVIDIA GPU with CUDA) is recommended for faster model training and improved performance.
+
+7. Version Control: Git is used for source code management, collaboration, and version tracking.
+
+8. IDE: Visual Studio Code (VS Code) or Jupyter Notebook for coding, experimentation, and debugging.
+
+9. Additional Dependencies: Includes NumPy, Matplotlib, TensorFlow (GPU/CPU), Keras, OpenCV, and scikit-learn for complete model development and evaluation.
 
 ## System Architecture
-<!--Embed the system architecture diagram as shown below-->
 
-![Screenshot 2023-11-25 133637](https://github.com/<<yourusername>>/Hand-Gesture-Recognition-System/assets/75235455/a60c11f3-0a11-47fb-ac89-755d5f45c995)
+![Picture4](https://github.com/user-attachments/assets/e6d808fe-0007-4042-8d7e-9a510c0c31ea)
 
 
 ## Output
 
-<!--Embed the Output picture at respective places as shown below as shown below-->
-#### Output1 - Name of the output
+#### Output1 - Image Preprocessing
 
-![Screenshot 2023-11-25 134037](https://github.com/<<yourusername>>/Hand-Gesture-Recognition-System/assets/75235455/8c2b6b5c-5ed2-4ec4-b18e-5b6625402c16)
+![Picture1](https://github.com/user-attachments/assets/0ea87386-e12f-4d2e-b7a9-ced699e3011b)
 
-#### Output2 - Name of the output
-![Screenshot 2023-11-25 134253](https://github.com/<<yourusername>>/Hand-Gesture-Recognition-System/assets/75235455/5e05c981-05ca-4aaa-aea2-d918dcf25cb7)
+![Picture2](https://github.com/user-attachments/assets/61afa5b5-1dee-4ea6-b2c2-57ce6fc58927)
+
+
+#### Output2 - Performance Evaluation
+
+![WhatsApp Image 2025-12-17 at 10 26 58 PM](https://github.com/user-attachments/assets/8b7bb830-3776-4516-a6f0-1a3270bb22f2)
 
 Detection Accuracy: 96.7%
 Note: These metrics can be customized based on your actual performance evaluations.
 
 
 ## Results and Impact
-<!--Give the results and impact as shown below-->
-The Sign Language Detection System enhances accessibility for individuals with hearing and speech impairments, providing a valuable tool for inclusive communication. The project's integration of computer vision and deep learning showcases its potential for intuitive and interactive human-computer interaction.
+The StrongBones: Cracking the Silent Disease system demonstrates effective and reliable detection of bone health conditions, including Normal, Osteopenia, and Osteoporosis, using deep learning–based medical image analysis. The model achieves strong classification performance, enabling early identification of osteoporosis and supporting timely clinical decision-making.
 
-This project serves as a foundation for future developments in assistive technologies and contributes to creating a more inclusive and accessible digital environment.
+This project highlights the practical application of deep learning in healthcare diagnostics and showcases how automated image-based analysis can reduce manual effort, improve diagnostic accuracy, and assist medical professionals. It serves as a foundation for future advancements in AI-driven medical diagnosis systems and contributes toward improving preventive healthcare and patient outcomes.
 
 ## Articles published / References
-1. N. S. Gupta, S. K. Rout, S. Barik, R. R. Kalangi, and B. Swampa, “Enhancing Heart Disease Prediction Accuracy Through Hybrid Machine Learning Methods ”, EAI Endorsed Trans IoT, vol. 10, Mar. 2024.
-2. A. A. BIN ZAINUDDIN, “Enhancing IoT Security: A Synergy of Machine Learning, Artificial Intelligence, and Blockchain”, Data Science Insights, vol. 2, no. 1, Feb. 2024.
+
+G. Litjens et al., “A survey on deep learning in medical image analysis,” Medical Image Analysis, vol. 42, pp. 60–88, 2017.
+
+A. Esteva et al., “Dermatologist-level classification of skin cancer with deep neural networks,” Nature, vol. 542, no. 7639, pp. 115–118, 2017.
+
+K. He, X. Zhang, S. Ren, and J. Sun, “Deep residual learning for image recognition,” in Proc. IEEE Conference on Computer Vision and Pattern Recognition (CVPR), pp. 770–778, 2016.
+
+K. He, X. Zhang, S. Ren, and J. Sun, “Deep residual learning for image recognition,” in Proc. IEEE Conference on Computer Vision and Pattern Recognition (CVPR), pp. 770–778, 2016.
+
 
 
 
